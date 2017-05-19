@@ -1,0 +1,329 @@
+.newproject_box{
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.special_box{
+	background-color: #fff;
+	overflow: hidden;
+}
+.project{
+	position: relative;
+}
+.project header{
+	text-align: center;
+	padding: 18px 0;
+}
+.project header p{
+	margin: 0;
+	color: #666;
+}
+.project ul.p_content{
+	overflow: hidden;
+	padding-top: 10px;
+}
+.project ul.p_content li{
+	border-radius: 3px;
+	margin-bottom: 50px;
+}
+.project ul.p_content li a{
+	position: relative;
+	float: left;
+	overflow: hidden;
+	border-radius: 10px;
+	transition: transform 0.3s;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.project ul.p_content li a:hover,
+.project ul.p_content li a:focus{
+	text-decoration: none;
+}
+.project ul.p_content li a div.newdiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 10px;
+	background-color: #fff;
+}
+.project ul.p_content li a div.newdiv h4{
+	line-height: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin :15px 0 0;
+	color: #666;
+}
+.project ul.p_content li a div.newdiv h4 strong{
+	font-size: 18px;
+	padding-right: 5px;
+}
+.project ul.p_content li a div.newdiv h4 p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: auto;
+	margin: 0;
+	font-size: 14px;
+	color: #666;
+}
+.project ul.p_content li a div.newdiv h4 p i{
+	margin-right: 5px;
+	width: 13px;
+	height:16px;
+	background: url(../images/icon01.png) no-repeat center;
+}
+.project ul.p_content li a div.newdiv h5{
+	line-height: 1;
+	margin: 20px 0;
+	color: #666;
+	font-size: 16px;
+	color: #666;
+}
+.project ul.p_content li a div.specialdiv{
+	position: relative;
+	padding: 0 15px;
+	height: 50px;
+	background-color: #f5f5f5;
+}
+.project ul.p_content li a div.specialdiv .onit{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 120px;
+	transition: transform 0.3s;
+}
+.project ul.p_content li a div.specialdiv .onit .shadow,
+.project ul.p_content li a div.specialdiv .onit .txt{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.project ul.p_content li a div.specialdiv .onit .shadow{
+	background-color: #fff;
+	opacity: 0.6;
+}
+.project ul.p_content li a div.specialdiv .onit .txt{
+	padding: 0 20px;
+}
+.project ul.p_content li a div.specialdiv .onit .txt h3{
+	font-size: 18px;
+	margin: 0;
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: #000;
+}
+.project ul.p_content li a div.specialdiv .onit .txt h3 span{
+	font-size: 16px;
+	padding: 4px 10px;
+	color: #fff;
+	border-radius: 10px;
+	line-height: 16px;
+	margin-right: 10px;
+}
+.project ul.p_content li a div.specialdiv .onit .txt h3 span.span1{
+	background-color: #ea544a;
+}
+.project ul.p_content li a div.specialdiv .onit .txt h3 span.span2{
+	background-color: #5aa3e0;
+}
+.project ul.p_content li a div.specialdiv .onit .txt p{
+	color: #000;
+	margin-bottom: 15px;
+}
+.project ul.p_content li a div.specialdiv .onit .txt p.pagnation{
+	color: #666;
+}
+.project ul.p_content li a div.specialdiv .onit .txt p.pagnation span{
+	margin-left: 16px;
+	color: #ea544a;
+}
+.project ul.p_content li a div.specialdiv:hover .onit{
+	transform: translateY(-70px);
+}
+.project .lookmore{
+	position: absolute;
+	right: 40px;
+	top: 75px;
+}
+.project .lookmore a{
+	display: inline;
+	color: #666;
+}
+.project .lookmore a:hover,
+.project .lookmore a:focus{
+	text-decoration: none;
+	color: #5aa3e0;
+}
+.project ul.p_content li a p.flag{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	margin: 0;
+	width: 20px;
+	height: 65px;
+	text-align: center;
+	word-wrap:break-word;  
+    word-break:break-all;
+    white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -webkit-pre-wrap;
+	white-space: -o-pre-wrap;
+	color: #fff;
+	font-size: 16px;
+
+}
+.project ul.p_content li a p.flag::before{
+	position: absolute;
+	content: "";
+	bottom: -12px;
+	left: 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-top-width: 12px;
+	border-right-width: 10px;
+	border-style: solid;
+	border-right-color: transparent;
+}
+.project ul.p_content li a p.flag::after{
+	position: absolute;
+	content: "";
+	bottom: -12px;
+	right: 0;
+	border-bottom: 0;
+	border-right: 0;
+	border-top-width: 12px;
+	border-left-width: 10px;
+	border-style: solid;
+	border-left-color: transparent;
+}
+.project ul.p_content li a p.flag.flag1{
+	background-color: #e5615b;
+}
+.project ul.p_content li a p.flag.flag1::before,
+.project ul.p_content li a p.flag.flag1::after{
+	border-top-color: #e5615b;
+}
+.project ul.p_content li a p.flag.flag2{
+	background-color: #b3b7b9;
+}
+.project ul.p_content li a p.flag.flag2::before,
+.project ul.p_content li a p.flag.flag2::after{
+	border-top-color: #b3b7b9;
+}
+.project ul.p_content li a p.flag.flag3{
+	background-color: #75ad52;
+}
+.project ul.p_content li a p.flag.flag3::before,
+.project ul.p_content li a p.flag.flag3::after{
+	border-top-color: #75ad52;
+}
+.adproject_box{
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.project .adcontent{
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+@media screen and (min-width: 992px) {
+	.project ul.p_content li a:hover{
+		transform: translateY(-10px);
+		box-shadow:0 5px 10px 5px #ddd;
+	}
+}
+@media screen and (max-width: 991px) {
+	.project ul.p_content li{
+		padding : 0 10px;
+		margin-bottom: 30px;
+	}
+	.project ul.p_content li a div.newdiv h4{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.project ul.p_content li a div.newdiv h4 strong{
+		font-size: 16px;
+	}
+	.project ul.p_content li a div.newdiv h4 p{
+		margin-top: 5px;
+		font-size: 12px;
+	}
+	.project ul.p_content li a div.newdiv h5{
+		margin: 10px 0;
+		font-size: 14px;
+	}
+	.project .adcontent{
+		margin-bottom: 40px;
+	}
+	.project ul.p_content li a p.flag{
+		font-size: 14px;
+		height: 60px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.project ul.p_content li{
+		padding : 0 5px;
+		margin-bottom: 10px;
+	}
+	.project ul.p_content li a{
+		border-radius: 5px;
+	}
+	.project ul.p_content li a div.newdiv{
+		padding : 0 5px;
+	}
+ 	.project ul.p_content li a div.newdiv h4 strong{
+		font-size: 14px;
+	}
+	.project ul.p_content li a div.newdiv h4 p{
+		justify-content: flex-start;
+		max-width: 100%;
+	}
+	.project ul.p_content li a div.newdiv h4 p span{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.project ul.p_content li a div.newdiv h5{
+		font-size: 12px;
+	}
+	.project .lookmore{
+		position: relative;
+		top:0;
+		right: 0;
+		padding-bottom: 20px;
+		display: flex;
+		justify-content: center;
+	}
+	.project .lookmore a{
+		display: block;
+		width: 40.8vw;
+		height: 10.67vw;
+		line-height: 10.67vw;
+		text-align: center;
+		color: #5aa3e0;
+		background-color: #fff;
+		border-radius: 5px;
+		border:2px solid #5aa3e0;
+	}
+	.project .lookmore a:hover,
+	.project .lookmore a:focus{
+		background-color: #5aa3e0;
+		color: #fff;
+	}
+	.project .adcontent{
+		margin-bottom: 20px;
+	}
+	.project ul.p_content li a p.flag{
+		font-size: 10px;
+		height: 50px;
+	}
+}

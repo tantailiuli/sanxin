@@ -1,0 +1,114 @@
+.footer_box{
+	background-color: #383838;
+	overflow: hidden;
+}
+.footer_box .footer{
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #aaa;
+}
+.footer_box .footer .nav{
+	padding: 0 15px;
+}
+.footer_box .footer .nav header{
+	display: none;
+}
+.footer_box .footer .nav nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer_box .footer .nav nav a{
+	color: #aaa;
+}
+.footer_box .footer .nav nav a:hover,
+.footer_box .footer .nav nav a:focus{
+	color: #5aa3e0;
+	text-decoration: none;
+}
+.footer_box .footer .talk{
+	display: flex;
+	justify-content: center;
+}
+.footer_box .footer .talk p{
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+.footer_box .footer .talk a{
+	color: #aaa;
+}
+.footer_box .footer .talk a:hover,
+.footer_box .footer .talk a:focus{
+	text-decoration: none;
+}
+.footer_box .footer .talk a p{
+	padding-left: 35px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-image: url(../images/qq.png);
+}
+.footer_box .footer .talk a:hover p{
+	background-image: url(../images/qq_.png);
+}
+.footer_box .footer .call{
+	align-self: flex-start;
+	display: flex;
+}
+.footer_box .footer .call p.phonecall{
+	padding-left: 35px;
+	height: 35px;
+	line-height: 35px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-image: url(../images/phonecall.png);
+}
+.footer_box .footer .call p.phonecall:hover{
+	background-image: url(../images/phonecall_.png);
+}
+.footer_box .footer .call p.phonecall strong{
+	margin-left: 5px;
+	font-size: 30px;
+	color: #fff;
+}
+.footer_box p.wm1200{
+	padding: 10px 0;
+	border-top: 1px solid #666;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+.footer_box p.wm1200 span{
+	margin-left: 10px;
+	color: #ddd;
+}
+@media screen and (min-width: 992px) {
+	.footer_box .footer .talk{
+		justify-content: flex-end;
+	}
+	.footer_box .footer .call{
+		justify-content: flex-end;
+	}
+}
+@media screen and (max-width: 991px) {
+	.footer_box .footer{
+		display: block;
+		overflow: hidden;
+	}
+	.footer_box .footer .nav header{
+		display: block;
+		text-align: center;
+		font-size: 18px;
+	}
+	.footer_box .footer .nav nav{
+		justify-content: space-around;
+		padding: 15px 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	.footer_box .footer .call p.phonecall strong{
+		font-size: 18px;
+	}
+}

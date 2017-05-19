@@ -1,0 +1,43 @@
+.rightside{
+	position: fixed;
+	bottom: 10%;
+	width: 74px;
+	right: -74px;
+	z-index: 9999;
+	transition: right 0.3s;
+}
+.rightside.visibel{
+	right: 0;
+}
+.rightside .btn{
+	margin: 5px 0;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #7f7f7f;
+	width: 74px;
+	height: 70px;
+}
+.rightside .btn span{
+	color: #fff;
+	font-size: 12px;
+}
+.rightside .btn span:hover,
+.rightside .btn span:focus{
+	text-decoration: none;
+}
+#sidehelp{
+	width: 10px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -10px;
+	background-color: #000;
+}
+@media screen and (min-width: 992px) {
+	.rightside .btn:hover{
+		background-color: #5aa3e0;
+	}
+}

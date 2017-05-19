@@ -1,0 +1,23 @@
+img{
+	border: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,
+ol{
+	list-style-type: none;
+}
+.wm1200{
+	max-width: 1200px;
+	margin:0 auto;
+}
+.bgcolor_blue_base{
+	background-color: #5aa3e0 !important;
+}
+.color_blue_base,
+.color_blue_base:hover,
+.color_blue_base:focus{
+	color: #5aa3e0 !important;
+}

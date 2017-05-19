@@ -1,0 +1,30 @@
+.bannerbackground{
+	width: 100%;
+	height: 33.3vw;
+ 	overflow: hidden;
+	background: url(../images/aboutusbanner.png) no-repeat center;
+	background-size: cover;
+ 	background-size: auto 33.3vw !important;
+}
+.aboutus_box{
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.aboutus_box .aboutus header{
+	text-align: center;
+}
+.aboutus_box .aboutus .content{
+	background: url(../images/aboutus01.png);
+}
+@media screen and (min-width: 1200px) {
+	.bannerbackground{
+		height: 400px;
+		background-size: auto 400px !important;
+	}
+}
+@media screen and (max-width: 991px) {
+	
+}
+@media screen and (max-width: 767px) {
+	
+}
