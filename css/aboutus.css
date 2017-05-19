@@ -14,6 +14,7 @@
 	text-align: center;
 }
 .aboutus_box .aboutus .content{
+	overflow: hidden;
 	background: url(../images/aboutus01.png);
 }
 @media screen and (min-width: 1200px) {
