@@ -10,22 +10,130 @@
 	background-color: #f5f5f5;
 	overflow: hidden;
 }
+
 .aboutus_box .aboutus header{
 	text-align: center;
 }
+.aboutus_box .aboutus header p{
+	text-indent: 30px;
+	line-height: 26px;
+}
 .aboutus_box .aboutus .content{
+	padding: 50px 0;
 	overflow: hidden;
+	border-radius: 8px;
 	background: url(../images/aboutus01.png);
+}
+.aboutus_box .aboutus .content header{
+	color: #fff;
+}
+.aboutus_box .aboutus .content header p{
+	color: #eee;
+}
+.aboutus_box .aboutus .content header h3{
+	margin: 0 0 20px 0;
+}
+.aboutus_box .aboutus .content ul{
+	padding: 50px 0 10px 0;
+	overflow: hidden;
+}
+.aboutus_box .aboutus .content ul li{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.aboutus_box .aboutus .content ul li div{
+	margin-left: 5px;
+	color: #fff;
+}
+.aboutus_box .aboutus .content ul li div h4{
+	font-size: 20px;
+	margin: 0 0 10px 0;
+}
+.aboutus_box .aboutus .content ul li div p{
+	color: #eee;
+}
+.collectus_box{
+	background-color: #fff;
+	overflow: hidden;
+}
+.collectus_box .collectus{
+	padding: 40px 0;
+}
+.collectus_box .collectus header{
+	padding-bottom: 40px; 
+	font-size: 24px;
+	text-align: center;
+}
+.collectus_box .collectus .content{
+	display: flex;
+	justify-content: space-between;
+}
+.collectus_box .collectus .content .call div{
+	margin-bottom: 30px;
+}
+.collectus_box .collectus .content .call div img{
+	margin-right: 15px;
+}
+.collectus_box .collectus .content .call div h3{
+	font-size: 20px;
+	margin: 0 0 20px;
+}
+.collectus_box .collectus .content .call div p{
+	font-size: 16px;
+}
+#map{
+	width:625px;
+	height:265px;
+	border:#ccc solid 1px;
+	font-size:12px;
+}
+#map div div div span.BMap_Marker label.BMapLabel{
+	position: relative !important;
+}
+@media screen and (min-width: 768px) {
+	.aboutus_box .aboutus{
+		padding: 20px 0 50px;
+	}
+	.aboutus_box .aboutus .content{
+		padding: 50px 80px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.aboutus_box .aboutus .content{
+		padding: 50px 120px;
+	}
 }
 @media screen and (min-width: 1200px) {
 	.bannerbackground{
 		height: 400px;
 		background-size: auto 400px !important;
 	}
+	.aboutus_box .aboutus .content ul{
+		padding: 70px 0 10px 0;
+	}
 }
 @media screen and (max-width: 991px) {
-	
+	.aboutus_box .aboutus .content ul{
+		display: none;
+	}
+	.collectus_box .collectus .content{
+		padding: 0 10px;
+		justify-content: center;
+	}
+	.collectus_box .collectus .content .call div h3{
+		font-size: 18px;
+	}
+	.collectus_box .collectus .content .call div p{
+		font-size: 14px;
+	}
+	#map{
+		display: none;
+	}
 }
 @media screen and (max-width: 767px) {
-	
+	.aboutus_box .aboutus .content{
+		padding: 50px 10px;
+		border-radius: 0;
+	}
 }
