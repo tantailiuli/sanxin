@@ -26,6 +26,7 @@
 }
 .signsh_box .signup .content{
 	overflow: hidden;
+	padding: 20px 0;
 }
 .signsh_box .signup form{
 	float: left;
@@ -80,6 +81,21 @@
 	line-height: 40px;
 	border-radius: 5px;
 }
+.signsh_box .signup form .row{
+	margin: 0 auto;
+	width: 80%;
+}
+.signsh_box .signup form .row button[type="submit"]{
+	background-color: #5aa3e0;
+	color: #fff;
+	outline: none;
+	margin: 10px 0 20px;
+}
+.signsh_box .signup form .row a,
+.signsh_box .signup form .row a:hover,
+.signsh_box .signup form .row a:focus{
+	color: #5aa3e0;
+}
 .signsh_box .signup .img{
 	width: 40%;
 	float: right;
@@ -92,7 +108,7 @@
 		text-align: center;
 	}
 	.signsh_box .signup .content{
-		padding: 0 5px;
+		padding: 20px 5px;
 		display: flex;
 		justify-content: center;
 	}
@@ -120,5 +136,8 @@
 		font-size: 12px;
 		width: 80px;
 		min-width: 80px;
+	}
+	.signsh_box .signup form .row .last{
+		text-align: right;
 	}
 }
