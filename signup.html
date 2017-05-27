@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="keywords" content="" />  
+	<meta name="description" content="" />  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />  
+	<meta name="format-detection" content="telephone=no" />  
+	<meta name="apple-mobile-web-app-capable" content="yes" />  
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>三鑫</title>
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/share.css" />
+	<link rel="stylesheet" href="css/navshare.css" />
+	<link rel="stylesheet" href="css/signshare.css" />
+	<link rel="stylesheet" href="css/foot.css" />
+    <link rel="stylesheet" href="css/bootstrapValidator.min.css" />
+</head>
+<body>
+	<div class="alltop">
+		<div class="wm1200">
+			<div class="topbar">
+				<p><img class="customservice" src="" />客服热线：<span>400-008-3252</span></p>
+				<p>|</p>
+				<p>关于我们</p>
+			</div>
+		</div>
+	</div>
+	<div class="backgroundshadow hidden"></div>
+	<div class="nav_box">
+		<nav class="navbar navbar-default wm1200" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#example-navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="logo" href="index.html"><img class="responsive img-responsive" src="./images/logo.png" /></a>	
+				</div>
+				<div class="collapse navbar-collapse float_right" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active normal"><a href="index.html">首页</a></li>
+						<li class="normal"><a href="equityproject.html">股权项目</a></li>
+						<li class="normal"><a href="threeinformation.html">三板资讯</a></li>
+						<li class="normal"><a href="welfare.html">新手福利</a></li>
+						<li class="normal"><a href="aboutus.html">关于我们</a></li>
+						<li class="sign_box"><a class="sign signin color_blue_base" href="">登录</a><a class="sign signup color_blue_base" href="">注册</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="signsh_box">
+		<div class="signsh signup wm1200">
+			<header>注册新用户</header>
+			<div class="content">
+				 <form action="${basePath}/oauth/register" method="post" id="register-form">
+		            <div class="form-group">
+		            	<div>
+			            	<label for="type">类型：</label>
+			            	<input type="radio" name="type" checked><span>个人</span><input type="radio" name="type"><span>机构</span>
+			            </div>
+		            </div>
+		            <div class="form-group has-feedback">
+		           		<div>
+		            		<label for="username">手机号：</label>
+		                	<input type="tel" class="form-control" name="userName" id="userName" placeholder="请输入手机号" required>
+		                </div>
+		            </div>
+		           	<div class="form-group has-feedback">
+			            <div>
+			            	<label for="username">图形验证码：</label>
+			                <input type="txt" class="form-control" name="" id="" placeholder="请输入右边验证码" required>
+			                <img class="yanzhengma" src="./images/signyanzhengma.png" />
+			            </div>
+		            </div>
+		            <div class="form-group has-feedback">
+		            	<div>
+		            		<label for="username">手机验证码：</label>
+		               	 	<input type="txt" class="form-control" name="" id="" placeholder="请输入验证码" required>
+		                	<a class="getmobilema" href="">获取短信验证码</a>
+		                </div>
+		            </div>
+		            <div class="form-group has-feedback">
+		            	<div>
+			            	<label for="password">密码：</label>
+			                <input type="password" class="form-control" name="password" id="password" placeholder="请输入密码">
+			            </div>
+		            </div>
+		            <div class="form-group has-feedback">
+		           		<div>
+			            	<label for="repassword">确认密码：</label>
+			                <input type="password" class="form-control" name="repassword" id="repassword" placeholder="再次确认密码">
+		            	</div>
+		            </div>
+		            <div class="row">
+		                <div class="col-xs-12">
+		                    <div class="checkbox icheck">
+		                        <label>
+		                            <input type="checkbox" name="rememberMe" required>我已认真阅读<a href="#">《三鑫财富网会员注册协议》</a>
+		                        </label>
+		                    </div>
+		                </div>
+		                <div class="col-xs-12">
+		                    <button type="submit" class="btn btn-danger btn-block btn-flat">注册</button>
+		                </div>
+		                <div class="col-xs-12">
+		                	已有账号，<a href="">立即登录</a>
+		                </div>
+		           	</div>
+		        </form>
+				<img class="img responsive img-responsive" src="images/sign01.png" />
+			</div>
+		</div>
+	</div>	
+	<div class="footer_box">
+		<div class="footer wm1200">
+			<div class="nav col-md-5 col-xs-12">
+				<header>网站导航</header>
+				<nav>
+					<a href="index.html">首页</a>
+					<a href="equityproject.html">股权项目</a>
+					<a href="threeinformation.html">三板资讯</a>
+					<a href="welfare.html">新手福利</a>
+					<a href="aboutus.html">关于我们</a>
+				</nav>
+			</div>
+			<div class="talk col-md-2 col-xs-5">
+				<div>
+					<p>在线咨询一</p>
+					<a href=""><p class="qq">QQ交谈</p></a>
+					<p>在线咨询二</p>
+					<a href=""><p class="qq">QQ交谈</p></a>
+				</div>
+			</div>
+			<div class="call col-md-4 col-xs-7">
+				<div>
+					<p>财富热线</p>
+					<p class="phonecall"><strong>400-008-3252</strong></p>
+				</div>
+			</div>
+		</div>
+		<p class="wm1200">&copy;2017 www.sanxincaifu.cn All Rights Reserved&nbsp;&nbsp;三鑫财富产品管理有限公司&nbsp;&nbsp;版权所有<span>浙ICP备16033638号-1</span></p>
+	</div>
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrapValidator.min.js"></script>
+	<script src="js/navshare.js"></script>
+	<script src="js/sign.js"></script>
+</body>
+</html>
