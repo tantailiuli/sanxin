@@ -1,20 +1,10 @@
-/*.public{
-	width:80px;
-	height: 20px;
-	display:inline-block;
-	text-align: justify;
-	overflow: hidden;
-}
-.public::after{
-	content:"";
-	display: inline-block;
-	width:100%;
-}*/
+
 .signsh_box{
 	background-color: #f5f5f5;
 	overflow: hidden;
 	padding: 20px 0;
 }
+/*---signup---*/
 .signsh_box .signup{
 	background-color: #fff;
 	padding: 0 40px;
@@ -31,6 +21,20 @@
 .signsh_box .signup form{
 	float: left;
 	width: 450px;
+}
+.signsh_box .signup.signforget form{
+	float: none;
+	margin: 0 auto;
+}
+.signsh_box .signup.signforget form select{
+	height: 40px;
+	width: 200px;
+}
+.signsh_box .signup.signforget form select option{
+	height: 40px;
+	width: 200px;
+	max-width: 200px;
+	float: left;
 }
 .signsh_box .signup form .form-group{
 	width: 100%;
@@ -49,16 +53,24 @@
 	float: left;
 	width: 85px;
 	min-width: 85px;
+	height: 40px;
+	line-height: 40px;
 	text-align: right;
 }
 .signsh_box .signup form .form-group input[type="radio"]{
 	outline: none;
+	margin: 0;
 }
 .signsh_box .signup form .form-group input:not([type="radio"]){
 	float: left;
 	width: auto;
 	height: 40px;
 	flex: auto;
+}
+.signsh_box .signup form .form-group div p{
+	display: flex;
+	align-items: center;
+	margin: 0 20px 0 0;
 }
 .signsh_box .signup form .form-group .help-block{
 	float: left;
@@ -96,9 +108,92 @@
 .signsh_box .signup form .row a:focus{
 	color: #5aa3e0;
 }
+.signsh_box .signup form .row input[type="checkbox"]{
+	width: 14px;
+	height: 14px;
+	text-align:center;
+	-webkit-appearance:none;
+	border:2px solid #aaa;
+	font-family:Verdana;
+	font-size: 12px;
+	outline:none;
+	transition:all 0.1s;
+}
+.signsh_box .signup form .row input[type="checkbox"]:checked{
+	background-color:#5aa3e0;
+	color:white;
+	border:0;
+}
+.signsh_box .signup form .row input[type="checkbox"]:after{
+	font-weight:bold;
+}
+.signsh_box .signup form .row input[type="checkbox"]:checked:after{
+	content:"√";
+}
+.signsh_box .signup form .row .last a:hover,
+.signsh_box .signup form .row .last a:focus{
+	text-decoration: none;
+}
 .signsh_box .signup .img{
 	width: 40%;
 	float: right;
+}
+/*---signin---*/
+.signsh_box .signin .signinformbox{
+	float: right;
+	padding: 40px 0;
+	width: 550px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.signsh_box .signin .signinformbox header{
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+.signsh_box .signin .img{
+	float: left;
+}
+.signsh_box .signin .signinformbox form {
+	margin: 0 auto;
+	width: 69.1%;
+}
+.signsh_box .signin .signinformbox form .form-group input{
+	height: 50px;
+	padding: 6px 6px 6px 50px;
+	background-repeat: no-repeat;
+	background-position: 20px center;
+}
+.signsh_box .signin .signinformbox form .form-group input[type="tel"]{
+	background-image: url(../images/icon10.png);
+}
+.signsh_box .signin .signinformbox form .form-group input[type="password"]{
+	background-image: url(../images/icon11.png);
+}
+.signsh_box .signin .signinformbox form .row .forget{
+	float: right;
+	color: #333;
+}
+.signsh_box .signin .signinformbox form .row .forget:hover{
+	color: #5aa3e0;
+	text-decoration: none;
+}
+.signsh_box .signin .signinformbox form .row button[type="submit"]{
+	background-color: #5aa3e0;
+	color: #fff;
+	height: 50px;
+	font-size: 16px;
+	outline: none;
+	margin: 20px 0;
+}
+.signsh_box .signin .signinformbox form .row .last{
+	text-align: center;
+}
+.signsh_box .signin .signinformbox form .row .last a,
+.signsh_box .signin .signinformbox form .row .last a:hover,
+.signsh_box .signin .signinformbox form .row .last a:focus{
+	color: #5aa3e0;
+	text-decoration: none;
 }
 @media screen and (max-width: 991px) {
 	.signsh_box .signup{
@@ -112,10 +207,12 @@
 		display: flex;
 		justify-content: center;
 	}
-	.signsh_box .signup .content form{
+	.signsh_box .signup .content form,
+	.signsh_box .signin form{
 		width: 100%;
 	}
-	.signsh_box .signup .img{
+	.signsh_box .signup .img,
+	.signsh_box .signin .img{
 		display: none;
 	}
 	.signsh_box .signup form .form-group input:not([type="radio"]){
@@ -124,12 +221,24 @@
 		height: 24px;
 		padding: 7px 2px;
 	}
+	.signsh_box .signin .signinformbox{
+		width: 100%;
+		margin: 0 auto;
+	}
 }
 @media screen and (max-width: 767px) {
 	.signsh_box .signup form .form-group label{
 		width: 75px;
 		min-width: 75px;
 		font-size: 12px;
+		display:inline-block;
+		text-align: justify;
+		overflow: hidden;
+	}
+	.signsh_box .signup form .form-group label::after{
+		content:"";
+		display: inline-block;
+		width:100%;
 	}
 	.signsh_box .signup form .form-group .yanzhengma,
 	.signsh_box .signup form .form-group .getmobilema{
@@ -139,5 +248,12 @@
 	}
 	.signsh_box .signup form .row .last{
 		text-align: right;
+	}
+	.signsh_box .signin .signinformbox form .form-group input{
+		height: 40px;
+	}
+	.signsh_box .signin .signinformbox form .row button[type="submit"]{
+		height: 40px;
+		font-size: 14px;
 	}
 }

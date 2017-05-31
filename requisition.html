@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="css/navshare.css" />
 	<link rel="stylesheet" href="css/signshare.css" />
 	<link rel="stylesheet" href="css/foot.css" />
-    <link rel="stylesheet" href="css/bootstrapValidator.min.css" />
 </head>
 <body>
 	<div class="alltop">
@@ -53,21 +52,42 @@
 		</nav>
 	</div>
 	<div class="signsh_box">
-		<div class="signsh signup wm1200">
-			<header>注册新用户</header>
+		<div class="signsh signup signforget wm1200">
+			<header>新三板转让意向申请单</header>
 			<div class="content">
 				 <form action="" method="post" id="register-form-signup">
-		            <div class="form-group">
-		            	<div>
-			            	<label for="type">类型：</label>
-			            	<p><input type="radio" name="type" checked><span>个人</span></p>
-			            	<p><input type="radio" name="type"><span>机构</span></p>
-			            </div>
+		            <div class="form-group has-feedback">
+		           		<div>
+		            		<label for="projectName">项目名称：</label>
+		                	<input type="txt" class="form-control" name="projectName" id="projectName" placeholder="请输入项目名称" value="八达科技" required>
+		                </div>
 		            </div>
 		            <div class="form-group has-feedback">
 		           		<div>
-		            		<label for="username">手机号：</label>
-		                	<input type="tel" class="form-control" name="userName" id="userName" placeholder="请输入手机号" required>
+		            		<label for="projectCode">项目代码：</label>
+		                	<input type="txt" class="form-control" name="projectCode" id="projectCode" placeholder="请输入项目代码" value="833430" required>
+		                </div>
+		            </div>
+		            <div class="form-group has-feedback">
+		           		<div>
+		            		<label for="projectPrice">转让类型：</label>
+		                	<select name="" id="" class="form-control">
+		                		<option value="卖出">卖出</option>
+		                		<option value="买入">买入</option>
+		                		<option value="转让">转让</option>
+		                	</select>
+		                </div>
+		            </div>
+		            <div class="form-group has-feedback">
+		           		<div>
+		            		<label for="projectStock">股票价格：</label>
+		                	<input type="txt" class="form-control" name="projectStock" id="projectStock" placeholder="请输入股票价格" value="2.6" required>
+		                </div>
+		            </div>
+		            <div class="form-group has-feedback">
+		           		<div>
+		            		<label for="projectPrice">转让金额：</label>
+		                	<input type="txt" class="form-control" name="projectPrice" id="projectPrice" placeholder="请输入转让金额" value="10000" required>
 		                </div>
 		            </div>
 		           	<div class="form-group has-feedback">
@@ -77,42 +97,12 @@
 			                <img class="yanzhengma" src="./images/signyanzhengma.png" />
 			            </div>
 		            </div>
-		            <div class="form-group has-feedback">
-		            	<div>
-		            		<label for="username">手机验证码：</label>
-		               	 	<input type="txt" class="form-control" name="" id="" placeholder="请输入验证码" required>
-		                	<a class="getmobilema" href="">获取短信验证码</a>
-		                </div>
-		            </div>
-		            <div class="form-group has-feedback">
-		            	<div>
-			            	<label for="password">密码：</label>
-			                <input type="password" class="form-control" name="password" id="password" placeholder="请输入密码">
-			            </div>
-		            </div>
-		            <div class="form-group has-feedback">
-		           		<div>
-			            	<label for="repassword">确认密码：</label>
-			                <input type="password" class="form-control" name="repassword" id="repassword" placeholder="再次确认密码">
-		            	</div>
-		            </div>
 		            <div class="row">
 		                <div class="col-xs-12">
-		                    <div class="checkbox">
-		                        <label>
-		                            <input type="checkbox" name="rememberMe" required>我已认真阅读<a href="#">《三鑫财富网会员注册协议》</a>
-		                        </label>
-		                    </div>
-		                </div>
-		                <div class="col-xs-12">
-		                    <button type="submit" class="btn btn-block">注册</button>
-		                </div>
-		                <div class="col-xs-12 last">
-		                	已有账号，<a href="signin.html">立即登录</a>
+		                    <button type="submit" class="btn btn-block">确认提交</button>
 		                </div>
 		           	</div>
 		        </form>
-				<img class="img responsive img-responsive" src="images/sign01.png" />
 			</div>
 		</div>
 	</div>	
@@ -149,8 +139,6 @@
 
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/bootstrapValidator.min.js"></script>
 	<script src="js/navshare.js"></script>
-	<script src="js/sign.js"></script>
 </body>
 </html>
