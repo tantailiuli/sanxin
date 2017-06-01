@@ -36,6 +36,9 @@
 	max-width: 200px;
 	float: left;
 }
+.signsh_box .signup.signforget form .form-group div p{
+	margin-bottom: 5px;
+}
 .signsh_box .signup form .form-group{
 	width: 100%;
 	float: left;
