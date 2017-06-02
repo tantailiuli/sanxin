@@ -1,0 +1,38 @@
+.advantage_box{
+	background:url(../images/ouradvantagebg.png) center;
+}
+.advantage img{
+	float: right;
+}
+.advantage ul{
+	float: left;
+	max-width: 506px;
+}
+.advantage ul li{
+	margin-bottom: 30px;
+}
+.advantage ul li h3{
+	font-size: 26px;
+	color: #fff;
+	margin: 0 0 10px 0;
+}
+.advantage ul li p{
+	text-indent: 32px;
+	font-size: 16px;
+	color: #bbb;
+	line-height: 30px;
+	margin: 0;
+}
+@media screen and (min-width: 992px) {
+	.advantage{
+		padding-top: 172px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.advantage {
+		padding: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

@@ -1,0 +1,186 @@
+.infodetails{
+	padding-bottom: 30px;
+}
+.infodetails .content header h3{
+	margin: 20px 0 10px;
+}
+.infodetails .content header .title p{
+	margin: 0;
+}
+.infodetails .content header .title p span{
+	margin: 0 2px;
+}
+.infodetails .content header .title div{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.infodetails .content header .title div ul{
+	overflow: hidden;
+	margin: 0;
+}
+.infodetails .content header .title div ul li{
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin: 0 2px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.infodetails .content header .title div ul li.li1{
+	background-image: url(../images/icon12.png);
+}
+.infodetails .content header .title div ul li.li1:hover{
+	background-image: url(../images/icon12_.png);
+}
+.infodetails .content header .title div ul li.li2{
+	background-image: url(../images/icon13.png);
+}
+.infodetails .content header .title div ul li.li2:hover{
+	background-image: url(../images/icon13_.png);
+}
+.infodetails .content header .title div ul li.li3{
+	background-image: url(../images/icon14.png);
+}
+.infodetails .content header .title div ul li.li3:hover{
+	background-image: url(../images/icon14_.png);
+}
+.infodetails .content header .title div ul li.li4{
+	background-image: url(../images/icon15.png);
+}
+.infodetails .content header .title div ul li.li4:hover{
+	background-image: url(../images/icon15_.png);
+}
+.infodetails .content header .title div ul li.li5{
+	background-image: url(../images/icon16.png);
+}
+.infodetails .content header .title div ul li.li5:hover{
+	background-image: url(../images/icon16_.png);
+}
+.infodetails .content header .abstract{
+	border:1px dashed #5aa3e0;
+	padding: 20px;
+	margin: 20px 0;
+}
+.infodetails .content header .abstract p{
+	margin: 0;
+}
+.infodetails .content .artical img{
+	padding: 20px 0;
+}
+.infodetails .content .artical p{
+	text-indent: 28px;
+	line-height: 24px;
+	margin: 0;
+	padding: 10px 0;
+}
+.infodetails .content footer{
+	padding: 30px 0 0;
+}
+.infodetails .adver{
+	padding: 20px 0;
+}
+.infodetails .adver header{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.infodetails .adver ul.nav-tabs{
+	position: relative;
+	background-color: #ececed;
+	overflow: hidden;
+	border:0;
+}
+.infodetails .adver ul.nav-tabs:after{
+	position: absolute;
+	left: 50%;
+	top: 10px;
+	width: 2px;
+	height: 20px;
+	background-color: #d2d2d2;
+}
+.infodetails .adver ul.nav-tabs li{
+	width: 50%;
+	float: left;
+}
+.infodetails .adver ul.nav-tabs li a{
+	color: #333;
+	text-align: center;
+	border-bottom: 3px solid transparent;
+	border:0;
+	background-color: transparent;
+}
+.infodetails .adver ul.nav-tabs li.active a{
+	margin :0;
+	border-bottom: 3px solid #5aa3e0;
+	color: #5aa3e0;
+}
+.infodetails .adver .tab-pane{
+	padding: 10px 0;
+	border:1px solid #ececed;
+	margin: 0;
+}
+.infodetails .adver .tab-pane li{
+	width: 100%;
+	position: relative;
+	float: left;
+	padding-left: 30px;
+	margin: 10px 0;
+}
+.infodetails .adver .tab-pane li a{
+	color: #333;
+}
+.infodetails .adver .tab-pane li a:hover,
+.infodetails .adver .tab-pane li a:focus{
+	color: #5aa3e0;
+	text-decoration: none;
+}
+.infodetails .adver .tab-pane li:before{
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: 15px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #000;
+}
+@media screen and (min-width: 992px) {
+	.infodetails .content{
+		max-width: 840px;
+		float: left;
+	}
+	.infodetails .content header .title{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.infodetails .adver{
+		float: right;
+		width: 290px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.infodetails{
+		padding: 0 15px;
+	}
+	.infodetails .content header .title div{
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.infodetails .content header .title div ul li.li1{
+		background-image: url(../images/icon12_.png);
+	}
+	.infodetails .content header .title div ul li.li2{
+		background-image: url(../images/icon13_.png);
+	}
+	.infodetails .content header .title div ul li.li3{
+		background-image: url(../images/icon14_.png);
+	}
+	.infodetails .content header .title div ul li.li4{
+		background-image: url(../images/icon15_.png);
+	}
+	.infodetails .content header .title div ul li.li5{
+		background-image: url(../images/icon16_.png);
+	}
+}

@@ -604,7 +604,7 @@
 	.project ul.p_content li a p.flag,
 	.shpro_mess .left .up .img p.flag{
 		font-size: 14px;
-		height: 60px;
+		height: 50px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -662,7 +662,7 @@
 	}
 	.project ul.p_content li a p.flag,
 	.shpro_mess .left .up .img p.flag{
-		font-size: 10px;
-		height: 50px;
+		font-size: 12px;
+		height: 40px;
 	}
 }
