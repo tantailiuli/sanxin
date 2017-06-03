@@ -1,13 +1,16 @@
 .bigbg_box{
-	background: url(../images/welfarebigbg.jpg) no-repeat center top;
+	background: url(../images/welfarebigbg.jpg) no-repeat center;
+	overflow: hidden;
 }
 .bigbg .img2,
 .bigbg .img3{
 	cursor: pointer;
 }
 @media screen and (min-width: 768px) {
+	.bigbg{
+		transform: scale(0.8) translateY(-100px);
+	}
 	.bigbg .up{
-		padding-top: 80px;
 		margin: 0 auto;
 		max-width: 600px;
 		position: relative;
@@ -18,13 +21,12 @@
 		left: 50%;
 		transform: translateX(-50%);
 	}
-
 }
 @media screen and (min-width: 1200px) {
 	
-		.bigbg .down{
+	.bigbg .down{
 		position: relative;
-		height: 600px;
+		height: 400px;
 	}
 	.bigbg .img3{
 		position: absolute;
