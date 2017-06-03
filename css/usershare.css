@@ -1,0 +1,277 @@
+.user_box{
+	background-color: #f5f5f5;
+	overflow: hidden;
+	padding: 20px 0;
+}
+.usershare ul.navshare{
+	float: left;
+	width: 230px;
+	background-color: #fff;
+	margin:0;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.usershare ul.navshare li{
+	width: 100%;
+	float: left;
+	height: 60px;
+}
+.usershare ul.navshare li.active{
+	background-color: #deedf9;
+}
+.usershare ul.navshare li a{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.usershare ul.navshare li a,
+.usershare ul.navshare li a:hover,
+.usershare ul.navshare li a:focus{
+	color: #5aa3e0;
+	text-decoration: none;
+}
+.usershare ul.navshare li a img{
+	margin-right: 15px;
+}
+.usershare .content_box{
+	float: right;
+	width: 930px;
+	padding: 10px 40px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.usershare .content_box header{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+.usershare .content_box .content1{
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.usershare .content_box .content1 .img{
+	margin-right: 35px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 169px;
+}
+.usershare .content_box .content1 .img img{
+	width: 169px;
+	height: 169px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.usershare .content_box .content1 .img input[type="file"]{
+	width: 56px;
+	height: 24px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transform: translateY(24px);
+	cursor: pointer;
+}
+.usershare .content_box .content1 .img input[type="submit"]{
+	width: 56px;
+	height: 24px;
+	border: 0;
+	outline: none;
+	background-color: transparent;
+	color: #1dc153;
+	cursor: pointer;
+}
+.usershare .content_box .content1 .txt{
+	flex: auto;
+}
+.usershare .content_box .content1 .txt h3{
+	font-size: 20px;
+	margin: 20px 0;
+}
+.usershare .content_box .content1 .txt p{
+	width: 100%;
+	overflow: hidden;
+}
+.usershare .content_box .content1 .txt p span{
+	margin-right: 40px;
+}
+.usershare .content_box .content1 .txt p .span{
+	float: left;
+	padding-left: 20px;
+	line-height: 24px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 24px;
+}
+.usershare .content_box .content1 .txt p .span1{
+	background-image: url(../images/icon22.png);
+}
+.usershare .content_box .content1 .txt p .span2{
+	background-image: url(../images/icon23.png);
+}
+.usershare .content_box .content2 ul{
+	margin:20px 0;
+	padding: 0 20px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+}
+.usershare .content_box .content2 ul li{
+	width: 100%;
+	height: 60px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.usershare .content_box .content2 ul li:not(:last-child){
+	border-bottom: 1px dashed #ccc;
+}
+.usershare .content_box .content2 ul li span,
+.usershare .content_box .content2 ul li a{
+	width: 104px;
+}
+.usershare .content_box .content2 ul li a{
+	border: 1px solid #ea544a;
+	padding: 8px 0;
+	text-align: center;
+	border-radius: 30px;
+}
+.usershare .content_box .content2 ul li a,
+.usershare .content_box .content2 ul li a:hover,
+.usershare .content_box .content2 ul li a:focus{
+	color:#ea544a;
+	text-decoration: none;
+}
+.usershare .content_box .content2 ul li span.color1{
+	color: #1dc153;
+}
+.usershare .content_box .content2 ul li span.color2{
+	color: #ea544a;
+}
+.usershare .content_box .content3 h3{
+	font-size: 18px;
+	margin:20px 0;
+}
+.usershare .content_box .content3 h3 span{
+	color: #ea544a;
+}
+.usershare .content_box .content3 .txt{
+	background-color: #f5f5f5;
+	padding: 25px 40px;
+	border-radius: 5px;
+}
+.usershare .content_box .content3 .txt p{
+	margin: 0;
+}
+.usershare .content_box .content3 .txt p.p{
+	margin: 10px 0 0;
+}
+.usershare .content_box .content3 .txt p.p a,
+.usershare .content_box .content3 .txt p.p a:hover,
+.usershare .content_box .content3 .txt p.p a:focus{
+	color: #5aa3e0;
+}
+.usershare .content_box .content3 .txt p.p span{
+	display: inline-block;
+	background-color: #ea544a;
+	color: #fff;
+	width: 124px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 15px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.usershare .content_box .content3 table{
+	border: 1px solid #ddd;
+	width: 100%;
+}
+.usershare .content_box .content3 table td,
+.usershare .content_box .content3 table th{
+	width: 25%;
+	padding: 0 5px;
+	height: 50px;
+	text-align: center;
+}
+.usershare .content_box .content3 table th{
+	background-color: #d4d4d4;
+	height: 40px;
+}
+.usershare .content_box .content4,
+.usershare .content_box .content5{
+	padding: 20px 0;
+}
+.usershare .content_box .content4 table,
+.usershare .content_box .content5 table{
+	width: 100%;
+	border: 1px solid #ddd;
+}
+.usershare .content_box .content4 table tbody tr,
+.usershare .content_box .content5 table tbody tr{
+	border-bottom: 1px solid #ddd;
+}
+.usershare .content_box .content4 table tbody tr th,
+.usershare .content_box .content4 table tbody tr td{
+	width: 16.66666666667%;
+	height: 50px;
+	padding: 0 5px;
+	text-align: center;
+}
+.usershare .content_box .content4 table tbody tr th{
+	background-color: #d4d4d4;
+	height: 40px;
+}
+.usershare .content_box .content5 table tbody tr th,
+.usershare .content_box .content5 table tbody tr td{
+	width: 20%;
+	height: 50px;
+	padding: 0 5px;
+	text-align: center;
+}
+.usershare .content_box .content5 table tbody tr th{
+	background-color: #d4d4d4;
+	height: 40px;
+}
+.usershare .content_box .content5 table tbody tr td.no{
+	color: #ea544a;
+}
+.usershare .content_box .content5 table tbody tr td.yes{
+	color: #1dc153;
+}
+.usershare .content_box .content5 .pagination_box{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.usershare .content_box .content5 .pagination_box ul{
+	margin: 20px 0 0;
+}
+@media screen and (max-width: 1199px) {
+	.usershare ul.navshare{
+		width: 100%;
+	}
+	.usershare ul.navshare li{
+		width: 20%;
+	}
+	.usershare .content_box{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.usershare .content_box{
+		padding:10px;
+	}
+	.usershare .content_box .content1{
+		flex-direction: column;
+	}
+	.usershare .content_box .content2 ul li span,
+	.usershare .content_box .content2 ul li a{
+		width: 25%;
+	}
+}

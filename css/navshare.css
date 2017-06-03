@@ -47,6 +47,25 @@
 .navbar .container-fluid .collapse a.sign.signup{
 	border: 1px solid #5aa3e0;
 }
+.navbar .container-fluid .collapse ul li.sign_box img{
+	float: left;
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.navbar .container-fluid .collapse ul li.sign_box span{
+	float: left;
+	padding: 10px 0;
+	line-height: 1;
+}
+.navbar .container-fluid .collapse ul li.sign_box a.signname{
+	padding: 8px 5px;
+}
+.navbar .container-fluid .collapse ul li.sign_box a.signout{
+	color: #ea544a;
+	padding: 8px 5px;
+}
 .navbar-toggle{
 	margin:13px 15px;
 	border: 0;
@@ -92,7 +111,7 @@
 		padding: 25px 10px;
 	}
 	.navbar .container-fluid .collapse ul li.sign_box{
-		margin:17px 0 17px 70px;
+		margin:17px 0 17px 60px;
 	}
 	.navbar-default .navbar-nav > li.active > a,
 	.navbar-default .navbar-nav > li.active > a:hover,
@@ -149,10 +168,13 @@
 	.navbar-nav > li.normal > a{
 		padding: 15px 30px;
 	}
+	.navbar .container-fluid .collapse ul li.sign_box{
+		margin: 20px 10px;
+	}
 	.navbar .container-fluid .collapse a.sign{
 		float: left;
-		margin: 20px 10px;
 		padding: 8px 25px;
+		margin: 0 10px;
 		border: 1px solid #5aa3e0;
 	}
 	.navbar .container-fluid .collapse a.sign.signup{

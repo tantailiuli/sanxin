@@ -6,7 +6,6 @@ $(".navbar-toggle").on("click",function(){
 $(".backgroundshadow").on("click",function(){
 	$(".navbar-toggle").click()
 })
-
 $(window).scroll(function(){
 	if($(document).scrollTop()>=30){
 		$(".nav_box").addClass("fixnav")
