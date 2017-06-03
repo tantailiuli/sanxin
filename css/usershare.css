@@ -264,6 +264,12 @@
 	}
 }
 @media screen and (max-width: 767px) {
+	.usershare ul.navshare li a img{
+		margin-right: 5px;
+	}
+	.usershare ul.navshare li a{
+		padding: 0 5px;
+	}
 	.usershare .content_box{
 		padding:10px;
 	}
